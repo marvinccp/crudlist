@@ -1,0 +1,18 @@
+{
+  "name": "simple_crud_vanillajs",
+  "version": "1.0.0",
+  "description": "Js Practice: Simple Crud",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "keywords": [
+    "Javascript",
+    "dataBase",
+    "practice",
+    "learn",
+    "Javascript"
+  ],
+  "author": "Marvin Berrio <marvinccp@gmail.com>",
+  "license": "MIT"
+}

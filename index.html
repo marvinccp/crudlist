@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+    <title>Crud Vanilla Javascript</title>
+  </head>
+  <body>
+    <header class="crud-header-container">
+      <img src="./images/clients-img.png" alt="dataBase-image" />
+      <h3>Clients List</h3>
+    </header>
+    <section class="crud-form-container">
+      <form action="">
+        <div class="name">
+          <p><label for="name">Name</label></p>
+          <input
+            class="form-input-name"
+            type="text"
+            id="name"
+            placeholder="name"
+            value=""
+          />
+        </div>
+
+        <div class="lastName">
+          <p><label for="lastName">LastName</label></p>
+          <input
+            class="form-input-LastName"
+            type="text"
+            id="LastName"
+            placeholder="lastName"
+            value=""
+          />
+        </div>
+
+        <div class="phone">
+          <p><label for="phone">Phone</label></p>
+          <input
+            class="form-input-phone"
+            type="text"
+            id="phone"
+            placeholder="phone"
+            value=""
+          />
+        </div>
+
+        <div class="button">
+          <input class="form-button" type="button" id="submit" value="Save" />
+        </div>
+      </form>
+    </section>
+    <div class="message-container">
+      <h4 id="message"></h4>
+    </div>
+    <section class="crud-table-container">
+      <table class="crud-table" id="table" >
+        <colgroup span="4" class="columns"></colgroup>
+        <tr class="title-tr">
+          <th>id</th>
+          <th>Name</th>
+          <th>LastName</th>
+          <th>Phone</th>
+          <th class="buttons-th" colspan="2">Actions</th>
+        </tr>
+        <tbody class="table-body" id="root"></tbody>
+      </table>
+    </section>
+  </body>
+</html>
